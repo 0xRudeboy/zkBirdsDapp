@@ -42,3 +42,13 @@
   transform: translate(0, -3px);
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
 }
+
+.toastBodySuccess {
+  @apply font-albraMed text-green-600 tab:text-xl;
+}
+.toastBodyError {
+  @apply font-albraMed text-[#B4142E] tab:text-xl;
+}
+.toastBodyPending {
+  @apply font-albraMed text-[#00FFFF] tab:text-xl;
+}

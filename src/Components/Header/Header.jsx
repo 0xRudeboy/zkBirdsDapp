@@ -4,7 +4,7 @@ import zkIcon from "../../Assets/zkIcon.png";
 
 const Header = ({ isConnected }) => {
   return (
-    <div className="fixed top-10 right-8">
+    <div className="fixed top-3 tab:top-10 right-4 tab:right-8">
       {isConnected ? (
         <div className="flex gap-6 items-center">
           <a

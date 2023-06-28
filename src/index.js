@@ -17,7 +17,7 @@ import { infuraProvider } from "wagmi/providers/infura";
 import { publicProvider } from "wagmi/providers/public";
 
 const { chains, provider } = configureChains(
-  [mainnet, goerli, zkSyncTestnet],
+  [zkSyncTestnet],
   // [publicProvider()]
   [
     infuraProvider({
