@@ -40,7 +40,7 @@ const wagmiClient = createClient({
 
 const myTheme = merge(darkTheme(), {
   blurs: {
-    modalOverlay: "small",
+    // modalOverlay: "small",
   },
   colors: {
     accentColor: "#4c33e9",
@@ -54,7 +54,7 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <WagmiConfig client={wagmiClient}>
-      <RainbowKitProvider chains={chains} theme={myTheme}>
+      <RainbowKitProvider modalSize="compact" chains={chains} theme={myTheme}>
         <App />
       </RainbowKitProvider>
     </WagmiConfig>

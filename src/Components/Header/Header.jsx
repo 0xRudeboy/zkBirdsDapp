@@ -8,7 +8,7 @@ const Header = ({ isConnected }) => {
       {isConnected ? (
         <div className="flex gap-6 items-center">
           <a
-            href="https://goerli.explorer.zksync.io/address/0xcC0F014Db4F0269EFc89d0a50F506884E8d0f2d0"
+            href="https://explorer.zksync.io/address/0xc7380fc0b0b232d57d1660362d0b5827d39a909f"
             target="_blank"
             rel="noopener noreferrer"
           >
