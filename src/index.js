@@ -12,12 +12,12 @@ import {
 } from "@rainbow-me/rainbowkit";
 import merge from "lodash.merge";
 import { configureChains, createClient, WagmiConfig } from "wagmi";
-import { mainnet, goerli, zkSyncTestnet } from "wagmi/chains";
+import { mainnet, goerli, zkSyncTestnet, zkSync } from "wagmi/chains";
 import { infuraProvider } from "wagmi/providers/infura";
 import { publicProvider } from "wagmi/providers/public";
 
 const { chains, provider } = configureChains(
-  [zkSyncTestnet],
+  [zkSync],
   // [publicProvider()]
   [
     infuraProvider({
